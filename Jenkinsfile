@@ -8,6 +8,12 @@ pipeline {
             //
          }
       }
+       stage('ahmed') {
+         steps {
+            echo "welcome"
+            //
+         }
+      }
       
    }
 }
